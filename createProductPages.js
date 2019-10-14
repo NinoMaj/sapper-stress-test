@@ -95,7 +95,7 @@ import products from './_products.js';
 
 <MyComponent {myComponent}/>
 
-<p>P${randomWords({ min: 30, max: 50 }).join(" ")}.</p>`,
+<p>Lorem ${randomWords({ min: 30, max: 50 }).join(" ")}.</p>`,
       function(err) {
         if (err) {
           return console.log(err);
