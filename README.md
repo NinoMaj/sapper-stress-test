@@ -18,7 +18,7 @@ yarn generate:pages # generate 1000 product pages
 yarn dev
 ```
 
-Open up [localhost:3000](http://localhost:3000) and go click products in navigation.
+Open up [localhost:3000](http://localhost:3000) and click products in navigation.
 
 ### Static export and serving static files
 
@@ -27,4 +27,4 @@ yarn export # static export will be done in __sapper__ folder
 yarn serve:static # serve static files
 ```
 
-Open up [localhost:5000](http://localhost:3000) and go click products in navigation.
+Open up [localhost:5000](http://localhost:3000) and click products in navigation.
