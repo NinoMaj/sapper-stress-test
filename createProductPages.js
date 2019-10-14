@@ -19,7 +19,7 @@ if (!standardFS.existsSync(productsFolder)) {
 
 // Delete old product pages
 rimraf("./src/routes/products/*", async () => {
-  console.log("Old product pages are deleted.");
+  console.log("-> Old product pages are deleted.");
 
   // Generate Svelte pages
   const pages = [];
@@ -108,7 +108,7 @@ import products from './_products.js';
 
   await Promise.all(pages);
 
-  console.log("Done generating pages.");
+  console.log("-> Done generating pages.");
 
   // Generate metadata.
   fs.writeFile(
@@ -121,9 +121,9 @@ import products from './_products.js';
         return console.log(err);
       }
 
-      console.log("Meta data done");
+      console.log("-> Meta data done");
     }
   );
 
-  console.log("Done generating meta file.");
+  console.log("-> Done generating meta file.");
 });
