@@ -3,6 +3,7 @@
 ### Requirements
 
 - Node.js 11.x
+- yarn 1.x
 
 ### Setup
 
